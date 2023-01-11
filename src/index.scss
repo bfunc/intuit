@@ -3,6 +3,17 @@
     src: url('./font.ttf');
 }
 
+@keyframes animation {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
 * {
     font-family: 'main';
     transition: .3s ease;
@@ -26,11 +37,13 @@
     a {
         color: rgb(32, 56, 136);
         font-size: 2.5vh;
+        animation: .5s animation;
     }
 
     button {
         border-radius: 50%;
         padding: 8%;
+        animation: 1s animation;
         cursor: pointer;
         border: 2px solid white;
         background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);

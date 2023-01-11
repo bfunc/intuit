@@ -31,7 +31,7 @@ export const App = () => {
       console.error(error);
     }
   }
-
+  
   useEffect(() => {
     if (machine.value === `sad`) {
       if (suggestions.length === 0) {
@@ -53,7 +53,7 @@ export const App = () => {
 
       {machine.value === `sad` && suggestions[ suggestionsMix ] &&
         <a target={`_blank`} href={suggestions[ suggestionsMix ].link}>
-          Try to {suggestions[ suggestionsMix ].title}.
+          Try {suggestions[ suggestionsMix ].title}.
         </a>}
     </div>
   );
