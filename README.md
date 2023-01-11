@@ -1,19 +1,19 @@
 # Assignment
 
-**Check out the infinite machine**
+## Check out the infinite machine
 
 on `./src/machine.ts`
 
-**Initiate the JSON server**
+## Initiate the JSON server
 
 `npx json-server db.json`
 
-**Install modules & start**
+## Install modules & start
 
 `yarn install`
 
 `yarn start`
 
-**Use the app**
+## Use the app
 
-To monitor your mode & make it better!
+To monitor & improve your mode.
